@@ -18,6 +18,9 @@ We will be following this [YouTube](https://www.youtube.com/watch?v=Bg9r_yLk7VY&
 ## How to Use
 
 Find the url of the Amazon product you wish to monitor and insert it in line 7 of the code.
+
 Go to your internet browser and search "my user agent", then insert your user agent in line 9 of the code.
+
 Go to line 39 and insert your email address in place of the 2nd email address there.
+
 Lastly change how often you want to monitor the Amazon product by updating line 44 with the amount of seconds in between each time you check the page. For example 60 would check the Amazon product every minute.
