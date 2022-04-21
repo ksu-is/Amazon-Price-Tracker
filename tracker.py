@@ -16,6 +16,7 @@ server.starttls()
 server.ehlo()
 server.login('trackeramzn@gmail.com', 'Shared83617')
 user_email = input("Enter your email: ")
+
 def check_price(URL,Price):
     page = requests.get(URL, headers=headers)
 
