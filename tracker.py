@@ -37,7 +37,7 @@ def send_mail(server):
     subject = 'Price has dropped!'
     body = 'Check the amazon link below to see your deal!', URL
     msg = f"Subject: {subject}\n\n{body}"
-    server.sendmail('TrackerAMZN@gmail.com','TrackerAMZN@gmail.com',msg)
+    server.sendmail('TrackerAMZN@gmail.com',input("Enter your email: "),msg)
     print('MESSAGE HAS BEEN SENT')
 try:    
     while(True):    
@@ -46,5 +46,4 @@ try:
 except KeyboardInterrupt:
     server.quit()
 
-#lets hope this works.
-#test
+
