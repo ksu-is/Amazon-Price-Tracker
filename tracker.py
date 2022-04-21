@@ -14,7 +14,7 @@ server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
 server.starttls()
 server.ehlo()
-server.login(input("Enter your email"), input("Enter Email password"))
+server.login('trackeramzn@gmail.com', 'Shared83617'))
 
 def check_price(URL,Price):
     page = requests.get(URL, headers=headers)
