@@ -34,10 +34,11 @@ def check_price(URL,Price):
     print(floatprice)  
     
 def send_mail(server):
+    user_email = input("Enter your email: ")
     subject = 'Price has dropped!'
     body = 'Check the amazon link below to see your deal!', URL
     msg = f"Subject: {subject}\n\n{body}"
-    server.sendmail('TrackerAMZN@gmail.com',input("Enter your email: "),msg)
+    server.sendmail('TrackerAMZN@gmail.com',user_email,msg)
     print('MESSAGE HAS BEEN SENT')
 try:    
     while(True):    
