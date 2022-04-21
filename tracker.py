@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import smtplib
 import time
+import html5lib
 
 URL = input("Enter Amazon URL")
 
