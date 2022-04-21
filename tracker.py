@@ -15,7 +15,7 @@ server.ehlo()
 server.starttls()
 server.ehlo()
 server.login('trackeramzn@gmail.com', 'Shared83617')
-
+user_email = input("Enter your email: ")
 def check_price(URL,Price):
     page = requests.get(URL, headers=headers)
 
@@ -34,7 +34,6 @@ def check_price(URL,Price):
     print(floatprice)  
     
 def send_mail(server):
-    user_email = input("Enter your email: ")
     subject = 'Price has dropped!'
     body = 'Check the amazon link below to see your deal!', URL
     msg = f"Subject: {subject}\n\n{body}"
