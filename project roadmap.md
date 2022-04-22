@@ -7,5 +7,5 @@
 - [X] Assign each problem to a group member 
 - [X] Work each problem and find a solution
 - [ ] Make notes of successful changes, and also unscuccessful attempts
-- [ ] Discuss progress with group memebrs/Exchange notes
+- [x] Discuss progress with group memebrs/Exchange notes
 - [ ] Create power point slide to set expectation 
