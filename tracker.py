@@ -4,7 +4,7 @@ import smtplib
 import time
 import html5lib
 
-URL = input("Enter Amazon URL")
+URL = input("Enter Amazon URL: ")
 
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36", "DNT":"1","Connection":"close", "Upgrade-Insecure-Requests":"1"}
 
